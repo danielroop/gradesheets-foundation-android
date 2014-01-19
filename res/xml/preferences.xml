@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<!-- <ListPreference
+        android:key="@string/pref_detailType_id"
+        android:title="@string/pref_detailTypeTitle"
+        android:dialogTitle="@string/pref_detailTypeDialogTitle"
+        android:entries="@array/pref_detailType_entries"
+        android:entryValues="@array/pref_detailType_values"
+        android:defaultValue="@string/pref_detailType_default" />
+	-->
+ 
+ 	<ListPreference 
+        android:key="@string/pref_fontSize_id"
+ 	    android:title="@string/pref_fontSizeTitle"
+ 	    android:dialogTitle="@string/pref_fontSizeDialogTitle"
+ 	    android:entries="@array/pref_fontSize_entrires"
+ 	    android:entryValues="@array/pref_fontSize_values"
+ 	    android:defaultValue="@string/pref_fontSize_default" />
+ 	
+ 	<ListPreference 
+        android:key="@string/pref_degreesOfPrecision_id"
+ 	    android:title="@string/pref_degreesOfPrecision_title"
+ 	    android:dialogTitle="@string/pref_degreesOfPrecision_dialogTitle"
+ 	    android:entries="@array/pref_degreesOfPrecision_entrires"
+ 	    android:entryValues="@array/pref_degreesOfPrecision_values"
+ 	    android:defaultValue="@string/pref_degreesOfPrecision_default" />
+	
+ 	<CheckBoxPreference
+        android:key="displayNumberWrong"
+        android:title="@string/pref_displayNumberWrong_title"
+        android:summary="@string/pref_displayNumberWrong_summary"
+        android:defaultValue="false" />
+
+ 	<!-- 
+	<CheckBoxPreference 
+	    android:key="displayGradeScale"
+	    android:title="@string/pref_displayGradeScale_title"
+	    android:summary="@string/pref_displayGradeScale_summary"
+	    android:defaultValue="false"/> 	
+    -->
+ 
+
+</PreferenceScreen>

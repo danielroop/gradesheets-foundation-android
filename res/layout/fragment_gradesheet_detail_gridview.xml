@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gradesheet_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".GradeSheetDetailCustomFragment" >
+
+<TextView android:text="Hello World"/>
+
+</LinearLayout>
